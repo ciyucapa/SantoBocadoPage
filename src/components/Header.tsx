@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 
 import logoNuevo from '../../public/images/logo-nuevo.jpeg';
