@@ -2,43 +2,12 @@
 
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { Transition } from '@headlessui/react';
-import { HiOutlineXMark, HiBars3 } from 'react-icons/hi2';
-
-import Container from './Container';
 import Image from 'next/image';
 
 import logoNuevo from '../../public/images/logo-nuevo.jpeg';
 
-const menuItems = [
-  {
-    text: 'Inicio',
-    url: '#inicio',
-  },
-  {
-    text: 'Productos',
-    url: '#productos',
-  },
-  {
-    text: 'Masa Madre',
-    url: '#masa-madre',
-  },
-  {
-    text: 'Catálogo',
-    url: '#catalogo',
-  },
-  {
-    text: 'Contacto',
-    url: '#contacto',
-  },
-];
 
 const Header: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
 
   return (
     <header
