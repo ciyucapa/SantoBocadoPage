@@ -8,7 +8,7 @@ import Section from "@/components/Section";
 import CTA from "@/components/CTA";
 import BakerySlider from "@/components/BakerySlider";
 import About from '../components/About';
-import WhatsAppButton from "@/components/WhatsappButton";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 const HomePage: React.FC = () => {
   return (
